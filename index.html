@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css" />
 
     <title>Weather Station App</title>
-</head>
-<body>
-    <div>
-        <h1>Weather Station</h1>
+  </head>
+  <body class="bg-gradient-to-r from-blue-500 to-purple-500">
+    <div class="flex justify-center">
+      <div
+        class="m-4 p-2 border border-gray-300 border-solid rounded-lg flex flex-col items-center w-96"
+      >
+        <h1 class="text-3xl text-white drop-shadow-md">Weather Station</h1>
+        <div class="flex flow-col items-center">
+          <div class="items-center">City name input here</div>
+          <div
+            class="p-1 m-1 border border-gray-300 border-solid rounded-lg items-center"
+          >
+            search
+          </div>
+        </div>
+        <div class="flex flex-col items-center">
+          <h2 class="text-white text-2xl">City Name</h2>
+          <p>Clouds</p>
+          <p>clouds</p>
+          <p>icon</p>
+          <p>Temperature</p>
+          <div class="flex">
+            <p class="m-2">min</p>
+            <p class="m-2">max</p>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
